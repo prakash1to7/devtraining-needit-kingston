@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <database>
-    <element extends="task" label="Needit" max_length="40" name="x_58872_needit_needit" sizeclass="4" type="collection">
+    <element extends="task" label="Needit" max_length="40" name="x_58872_needit_needit" sizeclass="7" type="collection">
         <element display="true" label="new field" max_length="40" name="new_field" type="string"/>
         <element label="New field 2" max_length="40" name="new_field_2" type="integer"/>
         <element attributes="edge_encryption_enabled=true" choice="3" default="hr" label="Request type" max_length="40" name="u_choice_3" type="string">
