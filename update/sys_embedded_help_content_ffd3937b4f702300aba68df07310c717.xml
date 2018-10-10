@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update sys_domain="global" table="sys_embedded_help_content">
+    <sys_embedded_help_content action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <category>assessment</category>
+        <content><![CDATA[    <h1 class="title topictitle1">Assessment Category Result form</h1>        <div class="body taskbody">        <div class="section context" id="asmt_category_result-normal__context_il3_y3c_11b"><span class="ph">Category results contain values that            represent an evaluated record&#39;s performance in a specific metric category. Each category            result record stores data from one assessment group. Category result values are            calculated based on category and metric weights and from metric result values for the            same category.</span><div class="note note"><span class="notetitle">Note:</span> The system does not include metric results from certain                responses in category result calculations. To compensate, the system adjusts the                weight of the other normalized metric result values within the same category.</div></div>        <div class="li step p">                <span class="ph cmd">View the information in the form.</span>                <div class="itemgroup info">All the fields in the Assessment Category Result form are read-only.<div class="p">                        <div class="tablenoborder"><table id="asmt_category_result-normal__table_odb_vcj_w4" class="table"><thead class="thead"><tr class="row"><th class="entry" id="d533992e61">Field</th><th class="entry" id="d533992e64">Description</th></tr></thead><tbody class="tbody"><tr class="row"><td class="entry">Category</td><td class="entry">Name of the metric category that the category result                                            values apply to.</td></tr><tr class="row"><td class="entry">Rating</td><td class="entry">Rating is used on scorecards and decision matrixes.                                            Rating is updated dynamically as users complete                                            assessments. Rating is calculated as: <span class="ph uicontrol">Rating                                                &#61; V/N</span><ul class="ul" id="asmt_category_result-normal__ul_okv_nk5_b1b"><li class="li"><span class="ph uicontrol">V</span>: Sum of all normalized                                                  values that share a particular assessment group,                                                  category, and assessable record.</li><li class="li"><span class="ph uicontrol">N</span>: Number of assessment                                                  instances for the assessment group.</li></ul></td></tr><tr class="row"><td class="entry">Assessment group</td><td class="entry">Assessment group to which the category result is                                            associated. The category result                                                <span class="ph uicontrol">Rating</span> and                                                <span class="ph uicontrol">Normalized value</span> are                                            calculated from metric results in this assessment group                                            only.</td></tr><tr class="row"><td class="entry">Normalized value</td><td class="entry">Calculated value that measures the                                                <span class="ph uicontrol">Rating</span> relative to the                                            weights of categories used to assess the record                                            evaluated. The normalized value is calculated as:                                                <span class="ph uicontrol">Value &#61; Rating x W/SW</span><ul class="ul" id="asmt_category_result-normal__ul_qd2_jl5_b1b"><li class="li"><span class="ph uicontrol">W</span>: Associated category                                                  weight.</li><li class="li"><span class="ph uicontrol">SW</span>: Sum of weights of all                                                  categories the source record has category results                                                  for in this assessment group.</li></ul></td></tr><tr class="row"><td class="entry">Weight</td><td class="entry">Weight of the associated category. You may need to                                            configure the form to see this field.</td></tr><tr class="row"><td class="entry">Source</td><td class="entry">Record evaluated as the assessment subject. You may                                            need to configure the form to see this field.</td></tr></tbody></table></div>                    </div></div>            </div>    </div>    <div class="related-links"><div class="relinfo"><div class="reltitle">Related information<br /><div><a class="link" href="https://docs.servicenow.com/?context&#61;CSHelp:AssessmentCategoryResults&amp;version&#61;kingston" target="_blank">View an assessment category result</a></div></div></div></div>]]></content>
+        <last_sync>2018-10-04 08:26:08</last_sync>
+        <modifier>normal</modifier>
+        <name>asmt_category_result-normal</name>
+        <page>asmt_category_result</page>
+        <product>1</product>
+        <qualifier/>
+        <role/>
+        <role_order>1000</role_order>
+        <snc_created>true</snc_created>
+        <sys_class_name>sys_embedded_help_content</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2018-10-04 08:26:08</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>ffd3937b4f702300aba68df07310c717</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>asmt_category_result-normal</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name>sys_embedded_help_content_ffd3937b4f702300aba68df07310c717</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2018-10-04 08:26:08</sys_updated_on>
+        <version>k</version>
+    </sys_embedded_help_content>
+    <sys_translated_text action="delete_multiple" query="documentkey=ffd3937b4f702300aba68df07310c717"/>
+</record_update>
